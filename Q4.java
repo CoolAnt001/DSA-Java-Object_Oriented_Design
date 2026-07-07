@@ -8,7 +8,7 @@ class Deposit {
     double Total_amt;
 
     // Constructor 1 (Default)
-    Deposit() {
+    Deposit() { 
         Principal = 0;
         Time = 0;
         Rate = 0;
