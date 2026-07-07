@@ -2,7 +2,7 @@ package assignment2;
 
 class PointType{
     int x;
-    int y;
+    int y; 
 
     void setPoint(int x, int y){
         this.x = x;
