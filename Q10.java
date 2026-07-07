@@ -19,5 +19,4 @@ public class Q10{
 		r.showDetails();
 		r.grandTotal();
 	}
-
 }
