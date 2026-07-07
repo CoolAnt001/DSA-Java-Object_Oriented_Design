@@ -60,7 +60,7 @@ public class Q13{
             if(b[i].depositAmount < min){
                 min = b[i].depositAmount;
                 minBank = b[i].bankName;
-            }
+            } 
         }
 
         System.out.println("Bank with Minimum Deposit: " + minBank);
