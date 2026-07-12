@@ -6,13 +6,13 @@ class Person{
         this.name = name;
         this.age = age;
     }
-}
+} 
 class Employee1 extends Person{
     int Eid;
     double salary;
     Employee1(String name, int age, int Eid, double salary){
         super(name, age);
-        this.Eid = Eid;
+        this.Eid = Eid; 
         this.salary = salary;
     }
     void empDisplay(){
