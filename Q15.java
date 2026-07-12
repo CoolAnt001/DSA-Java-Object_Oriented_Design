@@ -1,7 +1,13 @@
 package assignment2;
 
 class PointType{
-    
+    int x;
+    int y; 
+
+    void setPoint(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
 
     void printPoint(){
         System.out.println("Center Point: (" + x + ", " + y + ")");
@@ -42,8 +48,8 @@ public class Q15{
     public static void main(String[] args){
     	    CircleType c = new CircleType();
 
-        c.setPoint(3,4);
-        c.setRadius(5);
+        c.setPoint(6,7);
+        c.setRadius(9);
 
         c.printPoint();
         c.printRadius();
