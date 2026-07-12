@@ -9,7 +9,7 @@ class Distance{
         this.inches = inches;
     }
 
-    void displayDistance(){
+    void displayDistance() {
         System.out.println("Distance: " + feet + "' " + inches + "\"");
     }
 }
