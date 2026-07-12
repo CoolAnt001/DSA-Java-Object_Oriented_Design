@@ -1,13 +1,7 @@
 package assignment2;
 
 class PointType{
-    int x;
-    int y; 
-
-    void setPoint(int x, int y){
-        this.x = x;
-        this.y = y;
-    }
+    
 
     void printPoint(){
         System.out.println("Center Point: (" + x + ", " + y + ")");
