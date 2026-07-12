@@ -61,8 +61,8 @@ class Rectangle1 extends Shape1 {
 public class Q7 {
     public static void main(String[] args) {
 
-        Circle1 c = new Circle1("Red", 5);
-        Rectangle1 r = new Rectangle1("Blue", 4, 6);
+        Circle1 c = new Circle1("Red", 10);
+        Rectangle1 r = new Rectangle1("Blue", 3, 10);
 
         c.display();
         r.display();
