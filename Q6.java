@@ -36,7 +36,7 @@ class Car extends Vehicle {
 public class Q6 {
     public static void main(String[] args) {
 
-        Car c = new Car("Toyota", 2023, 101, 1500000);
+        Car c = new Car("Toyota", 2026, 100201, 2699999);
 
         c.carDisplay();
     }
