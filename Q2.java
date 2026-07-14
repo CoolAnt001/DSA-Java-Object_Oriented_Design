@@ -7,7 +7,7 @@ class Complex {
 	public void setData(double real,double imag) {
 		this.real=real;
 		this.imag=imag;
-	}
+	} 
 	
 	public void display() {
 		System.out.println(this.real+" + "+this.imag+"i");
@@ -41,11 +41,11 @@ public class Q2 {
 		double i2=sc.nextDouble();
 		c2.setData(r2, i2);
 		c2.display();
-		
+		 
 		Complex result=new Complex();
 		result=result.add(c1, c2);
 		System.out.print("After adding them: "); 
-		result.display();
+		result.display(); 
 sc.close();
 	}
 
