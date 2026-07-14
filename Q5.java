@@ -19,7 +19,7 @@ class Square extends Shape {
     }
 }
 
-// Triangle class
+// Triangle class 
 class Triangle extends Shape {
     double base, height;
 
@@ -33,7 +33,7 @@ class Triangle extends Shape {
     }
 }
 
-// Circle class
+// Circle class 
 class Circle extends Shape {
     double radius;
 
@@ -45,7 +45,7 @@ class Circle extends Shape {
     }
 }
 
-public class Q5 {
+public class Q5 { 
     public static void main(String[] args) {
 
         Square s = new Square(4);
