@@ -14,7 +14,7 @@ class Car_ {
 
 }
 
-public class Q1 {
+public class OOD_Basics_Car {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
