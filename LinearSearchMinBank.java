@@ -28,12 +28,14 @@ class Bank{
     }
 }
 
-public class Q13{
+public class LinearSearchMinBank{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Bank b[] = new Bank[5];
+        System.out.println("Enter number of Banks: ");
+        int n=sc.nextInt();
+        Bank b[] = new Bank[n];
 
-        for(int i=0;i<5;i++){
+        for(int i=0;i<n;i++){
             b[i] = new Bank();
 
             System.out.print("Enter Bank Name: ");
@@ -47,7 +49,7 @@ public class Q13{
         }
 
         System.out.println("\n--- Bank Details ---");
-        for(int i=0;i<5;i++){
+        for(int i=0;i<n;i++){
             b[i].showData();
         }
 
@@ -56,7 +58,7 @@ public class Q13{
         double min = b[0].depositAmount;
         String minBank = b[0].bankName;
 
-        for(int i=1;i<5;i++){
+        for(int i=1;i<n;i++){
             if(b[i].depositAmount < min){
                 min = b[i].depositAmount;
                 minBank = b[i].bankName;
