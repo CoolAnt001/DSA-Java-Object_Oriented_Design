@@ -25,12 +25,14 @@ class Student{
     }
 }
 
-public class Q11{
+public class LinearSearchMaxObject {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Student s[] = new Student[5];
+        System.out.print("Enter number of students");
+        int n=sc.nextInt();
+        Student s[] = new Student[n];
 
-        for(int i=0;i<5;i++){
+        for(int i=0;i<n;i++){
             s[i] = new Student();
             s[i].getdata(sc);
         }
@@ -38,7 +40,7 @@ public class Q11{
         int max = s[0].DSA_Mark;
         int index = 0;
 
-        for(int i=1;i<5;i++){
+        for(int i=1;i<n;i++){
             if(s[i].DSA_Mark > max){
                 max = s[i].DSA_Mark;
                 index = i;
