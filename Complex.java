@@ -2,7 +2,7 @@ package assignment2;
 
 import java.util.Scanner;
 
-class Complex {
+public class Complex {
 	private double real,imag;
 	public void setData(double real,double imag) {
 		this.real=real;
@@ -18,8 +18,6 @@ class Complex {
 		 result.imag=c1.imag+c2.imag;
 		 return result;
 	 }
-}
-public class Q2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
