@@ -28,7 +28,7 @@ class Measurement extends Distance{
     }
 }
 
-public class Q14{
+public class InheritanceLengthConversion{
     public static void main(String[] args){
         Measurement m = new Measurement(5, 10);
 
