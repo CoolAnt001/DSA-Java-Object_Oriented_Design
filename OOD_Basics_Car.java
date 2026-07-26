@@ -1,6 +1,5 @@
-package assignment2;
 import java.util.Scanner;
-class Car_ {
+class Car {
 	protected int year;
 	protected String model;
 	
@@ -21,7 +20,7 @@ public class OOD_Basics_Car {
 
 		
 		//Car1
-		Car_ c1=new Car_();
+		Car c1=new Car();
 		System.out.print("Enter car model name:");
 		String m1=sc.next();
 		System.out.print("Enter year: ");
@@ -33,7 +32,7 @@ public class OOD_Basics_Car {
 		
 		System.out.println();
 		//Car2
-		Car_ c2=new Car_();
+		Car c2=new Car();
 		System.out.print("Enter car model name:");
 		String m2=sc.next();
 		System.out.print("Enter year: ");
