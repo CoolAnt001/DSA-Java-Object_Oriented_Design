@@ -1,4 +1,3 @@
-package assignment2;
 class Person{
     String name;
     int age;
