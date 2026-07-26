@@ -1,5 +1,3 @@
-package assignment2;
-
 class Distance{
     int feet;
     int inches;
