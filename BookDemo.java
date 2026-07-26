@@ -1,5 +1,3 @@
-package assignment2;
-
 class Book{
 	int bookId;
 	double price;
@@ -20,7 +18,7 @@ class Book{
     } 
 	
 }
-public class Q3 {
+public class BookDemo {
     public static void main(String[] args) {
 
         Book b1 = new Book(101, 500, 3);
