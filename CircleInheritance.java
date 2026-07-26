@@ -1,5 +1,3 @@
-package assignment2;
-
 class PointType{
     int x;
     int y; 
@@ -44,7 +42,7 @@ class CircleType extends PointType{
     }
 }
 
-public class Q15{
+public class CircleInheritance{
     public static void main(String[] args){
     	    CircleType c = new CircleType();
 
